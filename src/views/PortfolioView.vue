@@ -65,6 +65,30 @@ export default {
           github: "https://github.com/Andy-doit/PetSpa_391",
           demo: "https://pet-spa-391.vercel.app/",
         },
+        {
+          id: 7,
+          name: "Z_FI_AP – XML Invoice Upload & Automation",
+          imageUrl: "sapabap",
+          status:
+            "Developed ABAP tool for uploading XML invoices, supporting parking, posting, and reversal via BAPI and BDC. Included validation, SmartForm preview, and document status tracking.",
+          tech: "SAP ABAP, BAPI, BDC, SmartForms, XML",
+        },
+        {
+          id: 8,
+          name: "ZFI_RP_AP – Vendor Reports & Debt Analysis",
+          imageUrl: "sapabap2",
+          status:
+            "Built comprehensive ALV reports to track vendor transactions, aging debts, and open balances. Included multiple dynamic screens, document drill-down, and period-wise summaries.",
+          tech: "SAP ABAP, ALV Grid, BKPF, BSEG, Custom Z-Tables",
+        },
+        {
+          id: 9,
+          name: "ZFI_PM – Payment Advice with Email Automation",
+          imageUrl: "sapabap3",
+          status:
+            "Generated SmartForms-based payment advice documents and integrated email sending via CL_BCS. Pulled F110 payment results with attachments for each vendor.",
+          tech: "SAP ABAP, SmartForms, CL_BCS, F110 Integration",
+        },
       ],
     };
   },

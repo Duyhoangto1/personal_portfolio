@@ -20,7 +20,12 @@ const routes = [
     component: () => import("../views/PortfolioView.vue"),
     meta: { title: "Portfolio" },
   },
-
+  {
+    path: "/certification",
+    name: "certification",
+    component: () => import("../views/CertificationView.vue"),
+    meta: { title: "Certification" },
+  },
   {
     path: "/read/:slug/:id",
     name: "articleDetail",

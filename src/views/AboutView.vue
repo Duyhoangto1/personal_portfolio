@@ -6,37 +6,45 @@ export default {
       tech: [
         {
           id: 1,
+          name: "ABAP",
+          imageUrl:
+            "https://img.icons8.com/?size=100&id=38192&format=png&color=000000",
+          status: "Advance",
+        },
+        {
+          id: 15,
+          name: "SAP Fiori/UI5",
+          imageUrl:
+            "https://img.icons8.com/?size=100&id=38192&format=png&color=000000",
+          status: "Intermediate",
+        },
+        {
+          id: 2,
           name: "HTML",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/1051/1051277.png",
           status: "Advanced",
         },
         {
-          id: 2,
+          id: 3,
           name: "CSS",
           imageUrl: "https://cdn-icons-png.flaticon.com/512/732/732190.png",
           status: "Advanced",
         },
         {
-          id: 3,
+          id: 4,
           name: "NextJS",
           imageUrl:
             "https://img.icons8.com/?size=100&id=r2OarXWQc7B6&format=png&color=000000",
           status: "Advanced",
         },
         {
-          id: 4,
+          id: 5,
           name: "Javascript",
           imageUrl:
             "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png",
           status: "Advance",
         },
-        {
-          id: 5,
-          name: "ABAP",
-          imageUrl:
-            "https://img.icons8.com/?size=100&id=38192&format=png&color=000000",
-          status: "Advance",
-        },
+
         {
           id: 6,
           name: "JAVA",
@@ -176,6 +184,20 @@ export default {
             "https://img.icons8.com/?size=100&id=38192&format=png&color=000000",
           status: "IDE",
         },
+        {
+          id: 13,
+          name: "Eclipse / ADT",
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxPRKX0s-1ztZVZON615ptWlAvtYho3dOptw&s", // Eclipse icon
+          status: "ABAP Development IDE",
+        },
+        {
+          id: 14,
+          name: "SAP Logon",
+          imageUrl:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuCFIAoNYtQoJ7p2B0zpvRNTMAmxMQDc173Q&s", //
+          status: "ABAP Environment",
+        },
       ],
     };
   },
@@ -202,28 +224,27 @@ export default {
       <section
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center"
       >
-        <div class="flex justify-center">
+        <div class="flex justify-center items-center">
           <img
-            class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg"
+            class="w-40 h-40 rounded-full object-cover fadein-up"
+            src="/img/avatar.jpg"
             alt="Foto"
           />
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Duy Hoang Too. I'm a
-            web developer from Đăk Nông, Việt Nam. I have 1 year of experience
-            in front-end web development. I really enjoy what I do right now, in
-            my opinion, creating programs is not just a job, but also an art
-            that has aesthetic value
+            &nbsp;&nbsp;&nbsp;Hi! I'm Duy Hoang Too, a developer from Đăk Nông,
+            Việt Nam, passionate about both SAP ABAP and web development. With
+            hands-on experience in customizing SAP solutions (RICEFW,
+            SmartForms, BAPI...) and front-end web design, I enjoy building
+            systems that are both efficient and user-friendly.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be
-            functional and user-friendly yet still attractive. In addition, I
-            provide a personal touch to your product and ensure that the website
-            catches attention and is easy to use. My goal is to convey your
-            message and identity in the most creative way. If you are interested
-            in hiring me, please contact the listed contact.
+            &nbsp;&nbsp;&nbsp;To me, coding is more than work—it's creativity in
+            action. Whether writing ABAP logic or building responsive websites,
+            my goal is to deliver reliable, attractive solutions that help
+            businesses run better. Let’s connect if you need someone who can
+            bridge ERP and UI together.
           </p>
         </div>
       </section>
