@@ -51,6 +51,7 @@ export default {
   data() {
     return {
       toRotate: [
+        "ABAP Developer",
         "Web Developer",
         "Full-stack Engineer",
         "Informatics Student",
